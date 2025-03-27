@@ -77,7 +77,7 @@ curl --location 'http://localhost:3000/api/oauth/token' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'grant_type=authorization_code' \
 --data-urlencode 'code=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnRJZCI6InVwZmlyc3QiLCJpYXQiOjE3Mzg5MjI0MDksImV4cCI6MTczODkyNDIwOX0.OpHYqXxbPl2QqC4R3tRxl28qEai3YeEZ7AN5xj3_q7U' \
---data-urlencode 'client_id=upfirst' \
+--data-urlencode 'client_id=test-client-id' \
 --data-urlencode 'redirect_uri=http://localhost:3000/process'
  ```
 
@@ -88,6 +88,6 @@ curl --location 'http://localhost:3000/api/oauth/token' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'grant_type=refresh_token' \
 --data-urlencode 'refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnRJZCI6InVwZmlyc3QiLCJpYXQiOjE3Mzg5MjI0MDksImV4cCI6MTczODkyNDIwOX0.OpHYqXxbPl2QqC4R3tRxl28qEai3YeEZ7AN5xj3_q7U' \
---data-urlencode 'client_id=upfirst' \
+--data-urlencode 'client_id=test-client-id' \
 --data-urlencode 'redirect_uri=http://localhost:3000/process'
  ```
